@@ -25,7 +25,7 @@
 ## 📌 How the project works
 
 1. open terminal/cmd and put `docker run -d -p 6831:6831/udp -p 16686:16686 jaegertracing/all-in-one:latest`
-2. Find  [service.go](exercise3/service/service.go) and press Run button or ^R in Intellij IDEA to start server
+2. Find  [service.go](exercise3/service/service.go) and press Run button or ^R in Intellij IDEA to start program
 3. Open new tab in browser and type http://localhost:16686
 4. Push button FIND TRACES. In Service menu find calc_risk_heart_attack and push FIND TRACES
 5. If you need more information about JAEGER visit [site](https://www.jaegertracing.io) and read documentation# opentrace_go_example
